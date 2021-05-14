@@ -28,14 +28,16 @@ export default function Coins() {
   
   useEffect(()=>{
     // console.log(searchcoin);
-    setFilteredcoins(coins.filter( coin => coin.name.toLowerCase().includes(searchcoin)));
-    console.log(filteredCoins);
+    if(searchcoin !== ' '){
+      setFilteredcoins(coins.filter( coin => coin.name.toLowerCase().includes(searchcoin.toLowerCase())));
+    }
+    // console.log(filteredCoins);
   },[searchcoin])
 
 
   return (
     <Fragment>
-      <div id="parent-div">
+      <div id="parent-div">   
         <nav>
           <div id="title">
           Cryptocurrency Tracker

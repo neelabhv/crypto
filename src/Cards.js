@@ -3,7 +3,7 @@ import './style.css';
 
 export default function Cards({props}) {
 
-    const {id,name,symbol,image,current_price,last_updated,total_volume,circulating_supply}=props;
+    const {name,symbol,image,current_price,last_updated,total_volume,circulating_supply}=props;
 
   return (
     <Fragment>
