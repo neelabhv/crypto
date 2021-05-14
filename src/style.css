@@ -1,0 +1,88 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  flex-wrap: wrap;
+  width:100%;
+  justify-content: space-around;
+  background-color:rgb(107, 96, 96);
+  align-items: center;
+}
+#title{
+  font-size: 25px;
+}
+
+#search{
+  /* align-items: center; */
+  margin:15px;
+
+  /* border-radius: 5px; */
+}
+
+#coin{
+  /* align-items: center; */
+  /* width:auto; */
+  border-radius: 5px;
+  width: 100%;
+  font-size: 20px;
+}
+
+#coin-card{
+  /* border:1px solid red; */
+  margin-top: 58px;
+  background-color: rgb(211, 199, 199);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#each-card{
+  background-color: white;
+  margin:10px 0;
+  padding: 12px;
+  border-radius: 5px;
+  flex-basis: 20%;
+}
+
+img{
+  /* border: 1px solid black; */
+  padding:20px;
+  border-radius: 5px;
+  background-color: beige;
+  /* align-items: center; */
+  /* width:85%; */
+  /* width:50%; */
+}
+.label{
+  margin: 5px;
+}
+.label-heading{
+  display: inline;
+  font-weight: bold;
+}
+
+#card-details{
+  align-self: flex-start;
+  margin-top: auto;
+}
+
+@media screen and (max-width:541px){
+  #coin-card{
+    /* border:1px solid red; */
+    margin-top: 88px;
+    background-color: rgb(211, 199, 199);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  #title{
+    display: none;
+  }
+}
