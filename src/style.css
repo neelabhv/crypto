@@ -22,7 +22,7 @@ button{
   border:none;
   border-radius: 3px;
   font-size: 15px;
-  box-shadow: 0px 0px 5px 1px #0ff;
+  box-shadow: 0px 0px 5px 0px #0ff;
   /* text-shadow: 2px 2px 4px #000000; */
 }
 #title{
@@ -90,15 +90,15 @@ img{
 @media screen and (max-width:541px){
   #coin-card{
     /* border:1px solid red; */
-    margin-top: 125px;
+    margin-top: 90px;
     background-color: gainsboro;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
   #title{
-    /* display: none; */
-    font-size: 20px;
+    display: none;
+    /* font-size: 20px; */
   }
   button{
     padding:5px 10px;
