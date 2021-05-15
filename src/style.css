@@ -15,6 +15,16 @@ nav{
   background-color:gray;
   align-items: center;
 }
+button{
+  padding:5px 10px;
+  margin:0 5px;
+  cursor: pointer;
+  border:none;
+  border-radius: 3px;
+  font-size: 15px;
+  box-shadow: 0px 0px 5px 1px #0ff;
+  /* text-shadow: 2px 2px 4px #000000; */
+}
 #title{
   font-size: 25px;
 }
@@ -22,7 +32,7 @@ nav{
 #search{
   /* align-items: center; */
   margin:15px;
-
+  /* box-shadow: 10px 0px 5px 1px #0ff; */
   /* border-radius: 5px; */
 }
 
@@ -31,7 +41,9 @@ nav{
   /* width:auto; */
   border-radius: 5px;
   width: 100%;
+  border:none;
   font-size: 20px;
+  box-shadow: 0px 0px 5px 1px whitesmoke;
 }
 
 #coin-card{
@@ -49,6 +61,8 @@ nav{
   padding: 12px;
   border-radius: 5px;
   flex-basis: 20%;
+  box-shadow: 3px 2px 5px 0px rgb(144, 196, 166);
+  /* box-shadow: 5px 10px ; */
 }
 
 img{
@@ -76,13 +90,23 @@ img{
 @media screen and (max-width:541px){
   #coin-card{
     /* border:1px solid red; */
-    margin-top: 88px;
+    margin-top: 125px;
     background-color: gainsboro;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
   #title{
-    display: none;
+    /* display: none; */
+    font-size: 20px;
+  }
+  button{
+    padding:5px 10px;
+    margin:0 5px;
+    cursor: pointer;
+    border:none;
+    border-radius: 3px;
+    font-size: 15px;
+    margin-bottom: 10px;
   }
 }
